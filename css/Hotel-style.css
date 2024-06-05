@@ -150,4 +150,35 @@ body {
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0%;
+}
+
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header__messenger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+}
+.header__button a {
+  color: rgb(26, 26, 26);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.main {
+  flex: 1 1 0;
+  background: url("/img/main-img.jpg") center no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=Hotel-style.css.map */

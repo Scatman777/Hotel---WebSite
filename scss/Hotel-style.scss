@@ -81,5 +81,11 @@ body {
 }
 
 .header__button {
-    
+    @include buttonStyle
+}
+
+.main {
+    flex: 1 1 0;
+    background: url('/img/main-img.jpg') center no-repeat;
+    background-size: cover;
 }
