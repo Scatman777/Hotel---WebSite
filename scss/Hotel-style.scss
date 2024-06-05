@@ -1,0 +1,36 @@
+@import "_Hotel-null.scss";
+@import "_Hotel-mixin.scss";
+// /* Null-Style */
+
+html,
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+._countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+    padding: 0px 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+////// HEADER ////////////////
+.header {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+	background: none;
+}
