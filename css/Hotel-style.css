@@ -107,7 +107,7 @@ body {
 ._countainer {
   display: flex;
   flex-direction: column;
-  max-width: 1700px;
+  max-width: 1300px;
   padding: 0px 15px;
   box-sizing: content-box;
   margin: 0 auto;
