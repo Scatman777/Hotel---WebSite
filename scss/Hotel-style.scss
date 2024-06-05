@@ -2,6 +2,8 @@
 @import "_Hotel-mixin.scss";
 // /* Null-Style */
 
+$colorWhite: #fff;
+
 html,
 body {
     font-family: sans-serif;
@@ -33,4 +35,51 @@ body {
     top: 0;
     z-index: 50;
 	background: none;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 91.5px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+    img {
+        width: 128px;
+        height: 100%;
+    }
+}
+
+.header__navigation {
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__item {
+    a {
+        @include text-14px;
+    }
+}
+
+.header__column {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__messenger {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    
 }
