@@ -127,7 +127,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 91.5px;
-  padding: 31px 0px;
+  padding: 24px 0px;
 }
 
 .header__logo {
@@ -175,6 +175,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 12px 20px;
+  background: #fff;
+  border-radius: 8px;
 }
 .header__button a {
   color: rgb(26, 26, 26);
