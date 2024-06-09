@@ -125,12 +125,15 @@ body {
 .header__body {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 91.5px;
+  padding: 31px 0px;
 }
 
 .header__logo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 24px;
 }
 .header__logo img {
@@ -160,7 +163,11 @@ body {
 
 .header__messenger {
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
+}
+.header__messenger img {
+  width: 32px;
+  height: 100%;
 }
 
 .header__button {
@@ -177,7 +184,7 @@ body {
   letter-spacing: 0%;
 }
 
-.main {
+.headerMain {
   flex: 1 1 0;
   background: url("/img/main-img.jpg") center no-repeat;
   background-size: cover;
