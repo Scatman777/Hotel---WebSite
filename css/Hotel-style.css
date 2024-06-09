@@ -190,4 +190,14 @@ body {
   flex: 1 1 0;
   background: url("/img/main-img.jpg") center no-repeat;
   background-size: cover;
+}
+
+.main__body {
+  margin: 103px 0px 100px 0px;
+}
+
+.main__block-title {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }/*# sourceMappingURL=Hotel-style.css.map */

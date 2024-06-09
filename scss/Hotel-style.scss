@@ -3,6 +3,7 @@
 // /* Null-Style */
 
 $colorWhite: #fff;
+$colorPurple: rgb(61, 50, 79);
 
 html,
 body {
@@ -89,7 +90,7 @@ body {
 }
 
 .header__button {
-    @include buttonStyle
+    @include buttonWhite;
 }
 
 .headerMain {
@@ -98,6 +99,15 @@ body {
     background-size: cover;
 }
 
-.main {
-    
+.main {   
+}
+
+.main__body {
+    margin: 103px 0px 100px 0px;
+}
+
+.main__block-title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
