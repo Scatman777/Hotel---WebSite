@@ -111,3 +111,15 @@ body {
     flex-direction: column;
     gap: 40px;
 }
+
+.main__column-icon {
+    
+}
+
+.main__title {
+    @include h1;
+}
+
+.main__button {
+    @include buttonPurple;
+}
